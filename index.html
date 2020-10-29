@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html style="background:yellow">
+    <link rel="stylesheet" href="images/style.css" media="screen">
+    <head>
+        <meta charset="UTF-8">
+        <title>Page d'Accueil</title>
+    </head>
+
+    <body>
+        <header>
+        <img srcset="logodev380.png 380w, logodev640.jpg 640w, logodev120.png 120w,"
+        sizes="(max-width: 320px) 280px,
+        (max-width: 280px) 240px, 600px"
+        src= "logodev380.png" alt="Logo de developpeur"/><b>
+            <hgroup>
+            <h1>Le titre incroyable.</h1>
+            <h2>Vraiment incroyable.</h2>
+        </hgroup></b></p></header>
+        <nav><p>Navigation</p>
+            <ul style="list-style:none;">
+                <li><a href="index.html">Presentation</a></li>
+                <li><a href="news.html">Actualités</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Contactez-nous</h1>
+        <form id="contact" action="" methode="">
+            <fieldset>
+                <legend>Informations personnelles</legend>
+                <label for="nom"> Nom : </label>
+                    <input type="text" id="nom" name="nom" required placeholder="Entrez votre nom"><br/>
+                <label for="prenom"> Prénom : </label>
+                    <input type="text" id="prenom" name="prenom" required placeholder="Entrez votre prenom" />
+                <label for="email"> Email : </label>
+                    <input type="mail" id="mail" name="mail" required placeholder="Entrez votre email" />
+                <label for="message">Votre message SVP : </label>
+                    <textarea id="message" name=message cols="95" rows="5"></textarea>
+                <label for="telephone"> Telephone : </label>
+                    <input type="tel" id="tel" name="tel" required placeholder="Entrez votre numéro de telephone" />
+                <label for="date"> Date : </label>
+                    <input type="date" id="date" name="date" required placeholder="Entrez la date" />
+                <label for="color"> Couleur : </label>
+                    <input type="color" id="color" name="color" required placeholder="Entrez la couleur" />
+                <input type="submit" value="Envoyer" />
+                <input type="reset" value="Effacer" />
+                </fieldset>
+        </form>
+        <!--Ci aprés un texte incroyable-->
+        <div>Bien le bonjour a tous.</div>
+        <aside><p>Annexes</p></aside></aside><p>Bienvenue à tous.</p></aside>
+        <footer> Rural-Web-Factory 2020, certains droits reserves
+            <div>
+                <a href="legals.html">Mentions légales</a>
+                <a href="map.html">Plan du site</a>
+            </div></footer>
+    </body>
+</html>

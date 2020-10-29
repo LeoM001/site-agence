@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+nav a {text-decoration:none;color:black}
+nav a {text-decoration:none;color:black}
+nav a:hover {color:blueviolet}
+footer a {text-decoration:none; color:purple}
+header {background:blue}
+hgroup {text-align: center}
+nav {background:red; float:left}
+aside {background:pink; float:right; color:blue; font-size:1.2em; width:580px; border:solid}
+footer {background:purple; clear: both ; padding-top:2em ; color:whitesmoke}
+div {float: right}
+
+#conteneur {background: green;}
+.commentaire {background: purple;}
+.container {flex-wrap:wrap;}
